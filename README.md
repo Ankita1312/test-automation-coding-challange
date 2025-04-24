@@ -68,23 +68,22 @@ Windows (PowerShell):
 docker run --rm -v "${PWD}/html-report:/app/html-report" playwright-tests
 ```
 
-Mac/Linux:
-
-```bash
-docker run --rm -v "$(pwd)/html-report:/app/html-report" playwright-tests
-```
-
 You can view the HTML report using Playwright's built-in report server:
 
 ```bash
 npx playwright show-report html-report
 ```
----
+
+
 
 ## Test Reporting
 
 - **HTML reports** are generated automatically after each run.
 - Reports are saved in the `html-report` directory.
+- After running your tests, you can view the HTML report:
+ ```bash
+start html-report\index.html
+```
 
 ---
 
