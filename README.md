@@ -46,7 +46,8 @@ docker build -t playwright-tests .
 docker run --rm playwright-tests
 ```
 
-###3. **Run Tests and Export HTML Report to Host**
+### 3. **Run Tests and Export HTML Report to Host**
+
 To save and view the HTML report on your local machine, mount a folder from your host into the container.
 Use the command that matches your operating system:
 
