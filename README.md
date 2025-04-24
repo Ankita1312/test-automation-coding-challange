@@ -29,11 +29,22 @@ All tests are designed to be **readable, maintainable, scalable** .
 ---
 
 ## Prerequisites
-
+- Code editor (VS Code or any other)
 - [Docker](https://www.docker.com/products/docker-desktop/) installed  
 
 ---
+## Clone Repository and get Started
+### 1. **Clone the Repository**
+Open your terminal, navigate to the directory where you want to place the project, and run:
+```bash
+git clone https://github.com/Ankita1312/test-automation-coding-challange.git
 
+```
+### 2. **Navigate to the project directory**
+```bash
+cd test-automation-coding-challange
+```
+---
 ## How to Run the Tests
 
 ### 1. **Build the Docker Image**
